@@ -1,2 +1,4 @@
 # fake-news-detector
 Misinformation spreads faster than fact-checkers can keep up, and most readers have no quick way to sanity-check a headline or article before sharing it. There's no lightweight tool that lets someone paste a suspicious piece of content and get an instant, evidence-backed credibility. link: live app:[truth-check.apps.lemma.work]
+
+An AI-powered fake news detector. Users paste a headline, article, or URL, and an agent cross-checks the claims against reliable sources via web search, scans for sensational or unverifiable language, and returns a verdict (Likely Real / Suspicious / Likely Fake) with a confidence score and reasoning. Built with a submissions table for logging checks, a fact-checking agent, a form-to-agent-to-table workflow, and a single-page frontend for instant credibility checks.
